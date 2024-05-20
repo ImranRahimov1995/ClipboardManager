@@ -14,10 +14,10 @@ The default clipboard functionality in most operating systems is limited to stor
 To use the Clipboard Manager script, you need to install the required Python libraries. You can do this using pip, the Python package manager. Open a terminal or command prompt and run the following command:
 
 ```bash
-pip install pyperclip keyboard pyautogui
+pip install keyboard 
 ```
+This script manages the clipboard, allowing you to copy and paste text using keyboard shortcuts. It supports only Windows.
 
-This command will install the necessary libraries: `pyperclip` for accessing the clipboard, `keyboard` for detecting keyboard input, and `pyautogui` for simulating keyboard and mouse actions.
 
 ## Usage
 
